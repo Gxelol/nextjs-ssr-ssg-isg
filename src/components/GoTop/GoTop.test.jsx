@@ -11,46 +11,16 @@ describe('<GoTop />', () => {
       '#',
     );
     expect(container).toMatchInlineSnapshot(`
-      .c0 {
-        position: fixed;
-        bottom: 2rem;
-        right: 2rem;
-        background: #ffffff;
-        color: #0A1128;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-align-items: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        width: 4rem;
-        height: 4rem;
-        z-index: 6;
-        opacity: 0.8;
-      }
-
-      .c1 {
-        display: inline-block;
-        vertical-align: middle;
-        overflow: hidden;
-      }
-
       <div>
         <a
           aria-label="Go to top"
-          class="c0"
+          class="sc-bcXHqe ezKnbj"
           href="#"
           title="Go to top"
         >
           <svg
             aria-hidden="true"
-            class="c1"
+            class="StyledIconBase-sc-ea9ulj-0 dXOYdB"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"

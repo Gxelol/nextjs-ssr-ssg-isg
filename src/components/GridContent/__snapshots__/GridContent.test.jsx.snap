@@ -1,74 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<GridContent /> should render with background 1`] = `
-.c3 {
-  color: #0A1128;
-  font-size: 5.8rem;
-  text-transform: uppercase;
-}
-
-.c1 {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 3.2rem;
-  width: 100%;
-}
-
-.c0 {
-  background: #ffffff;
-  color: #0A1128;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c5 {
-  font-size: 2.4rem;
-}
-
-.c2 {
-  text-align: center;
-  max-width: 58rem;
-  margin: 0 auto;
-}
-
-.c4 {
-  margin: 6.4rem 0;
-}
-
-@media (max-width:76.8rem) and (min-width:38.5rem) {
-  .c3 {
-    font-size: 4.6rem;
-  }
-}
-
 <div>
   <section
-    class="c0"
+    class="sc-dkrFOg iFhURs"
     id=""
   >
     <section
-      class="c1"
+      class="sc-gswNZR gbNLi"
     >
       <section
-        class="c2"
+        class="sc-eDvSVe LYPuX"
       >
         <h2
-          class="c3"
+          class="sc-bcXHqe gGkVlk"
         >
           News coverage, and some surprises
         </h2>
         <div
-          class="c4"
+          class="sc-jSUZER cAYjNe"
         >
           <div
-            class="c5"
+            class="sc-hLBbgP gnjGay"
           >
             
   
@@ -169,74 +122,27 @@ exports[`<GridContent /> should render with background 1`] = `
 `;
 
 exports[`<GridContent /> should render without background 1`] = `
-.c3 {
-  color: #0A1128;
-  font-size: 5.8rem;
-  text-transform: uppercase;
-}
-
-.c1 {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 3.2rem;
-  width: 100%;
-}
-
-.c0 {
-  background: #ffffff;
-  color: #0A1128;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c5 {
-  font-size: 2.4rem;
-}
-
-.c2 {
-  text-align: center;
-  max-width: 58rem;
-  margin: 0 auto;
-}
-
-.c4 {
-  margin: 6.4rem 0;
-}
-
-@media (max-width:76.8rem) and (min-width:38.5rem) {
-  .c3 {
-    font-size: 4.6rem;
-  }
-}
-
 <div>
   <section
-    class="c0"
+    class="sc-dkrFOg iFhURs"
     id=""
   >
     <section
-      class="c1"
+      class="sc-gswNZR gbNLi"
     >
       <section
-        class="c2"
+        class="sc-eDvSVe LYPuX"
       >
         <h2
-          class="c3"
+          class="sc-bcXHqe gGkVlk"
         >
           News coverage, and some surprises
         </h2>
         <div
-          class="c4"
+          class="sc-jSUZER cAYjNe"
         >
           <div
-            class="c5"
+            class="sc-hLBbgP gnjGay"
           >
             
   

@@ -1,105 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<GridTwoColumns /> should render grid two columns 1`] = `
-.c5 {
-  color: #0A1128;
-  font-size: 5.8rem;
-  text-transform: uppercase;
-}
-
-.c2 {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 3.2rem;
-}
-
-.c2 .c4 {
-  margin-bottom: 4rem;
-}
-
-.c7 {
-  width: 100%;
-}
-
-.c1 {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 3.2rem;
-  width: 100%;
-}
-
-.c0 {
-  background: #ffffff;
-  color: #0A1128;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c6 {
-  font-size: 2.4rem;
-}
-
-@media (max-width:76.8rem) and (min-width:38.5rem) {
-  .c5 {
-    font-size: 4.6rem;
-  }
-}
-
-@media (max-width:38.4rem) {
-  .c2 {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-}
-
-@media (max-width:38.4rem) {
-  .c3 {
-    margin-bottom: 3.2rem;
-  }
-}
-
 <div>
   <section
-    class="c0"
+    class="sc-gKPRtg cagUuq"
     id=""
   >
     <section
-      class="c1"
+      class="sc-jSUZER ibPrsa"
     >
       <section
-        class="c2"
+        class="sc-gswNZR fpVbld"
       >
         <div
-          class="c3"
+          class="sc-dkrFOg bsMigw"
         >
           <h2
-            class="c4 c5"
+            class="sc-bcXHqe gGkVlk"
           >
             Grid Two Columns
           </h2>
           <div
-            class="c6"
+            class="sc-iBYQkv iSMdET"
           >
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod voluptatibus dolores obcaecati reprehenderit officiis libero recusandae fuga amet molestiae commodi, provident alias numquam doloribus ducimus debitis eius nemo laboriosam? Sapiente!
           </div>
         </div>
         <div
-          class=""
+          class="sc-hLBbgP"
         >
           <img
             alt="Grid Two Columns"
-            class="c7"
+            class="sc-eDvSVe jpyIgK"
             src="assets/images/javascript.svg"
           />
         </div>

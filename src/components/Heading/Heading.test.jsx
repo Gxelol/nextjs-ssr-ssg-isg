@@ -3,6 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import { Heading } from '.';
 import { renderTheme } from '../../styles/renderTheme';
 import { theme } from '../../styles/theme';
+import 'jest-styled-components';
 
 describe('<Heading />', () => {
   it('should render with default values', () => {

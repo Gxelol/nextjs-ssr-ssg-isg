@@ -1,147 +1,68 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<GridText /> should render with background 1`] = `
-.c4 {
-  color: #0A1128;
-  font-size: 5.8rem;
-  text-transform: uppercase;
-}
-
-.c9 {
-  color: #0A1128;
-  font-size: 3rem;
-  text-transform: none;
-}
-
-.c6 {
-  font-size: 2.4rem;
-}
-
-.c2 .c5 {
-  margin-bottom: 6.4rem;
-}
-
-.c7 {
-  counter-reset: grid-counter;
-  display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(28rem,1fr));
-  gap: 3.2rem;
-  overflow: hidden;
-  width: 100%;
-}
-
-.c8 .c3 {
-  position: relative;
-  left: 5rem;
-}
-
-.c8 .c3::before {
-  counter-increment: grid-counter;
-  content: counter(grid-counter);
-  position: absolute;
-  font-size: 7rem;
-  top: -3rem;
-  left: -5rem;
-  -webkit-transform: rotate(5deg);
-  -ms-transform: rotate(5deg);
-  transform: rotate(5deg);
-}
-
-.c1 {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 3.2rem;
-  width: 100%;
-}
-
-.c0 {
-  background: #ffffff;
-  color: #0A1128;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-@media (max-width:76.8rem) and (min-width:38.5rem) {
-  .c4 {
-    font-size: 4.6rem;
-  }
-}
-
-@media (max-width:38.4rem) {
-  .c7 {
-    grid-template-columns: 1fr;
-  }
-}
-
 <div>
   <section
-    class="c0"
+    class="sc-gKPRtg cagUuq"
     id=""
   >
     <section
-      class="c1"
+      class="sc-jSUZER ibPrsa"
     >
       <section
-        class="c2"
+        class="sc-dkrFOg ifwtWa"
       >
         <h2
-          class="c3 c4"
+          class="sc-bcXHqe gGkVlk"
         >
           My Grid
         </h2>
         <div
-          class="c5 c6"
+          class="sc-gswNZR SLXGE"
         >
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum asperiores saepe impedit illo recusandae! Et assumenda vitae quos, deserunt odit at pariatur totam ad culpa voluptatem ex placeat quod porro.
         </div>
         <div
-          class="c7"
+          class="sc-hLBbgP gtqogd"
         >
           <div
-            class="c8"
+            class="sc-eDvSVe cJPiuO"
           >
             <h3
-              class="c3 c9"
+              class="sc-bcXHqe bxsYJQ"
             >
               Test 1
             </h3>
             <div
-              class="c5 c6"
+              class="sc-gswNZR SLXGE"
             >
               Morbi hendrerit nec augue ac placerat. Duis vestibulum augue turpis. Nulla consectetur justo ac justo aliquet, vel auctor augue condimentum.
             </div>
           </div>
           <div
-            class="c8"
+            class="sc-eDvSVe cJPiuO"
           >
             <h3
-              class="c3 c9"
+              class="sc-bcXHqe bxsYJQ"
             >
               Test 2
             </h3>
             <div
-              class="c5 c6"
+              class="sc-gswNZR SLXGE"
             >
               Morbi hendrerit nec augue ac placerat. Duis vestibulum augue turpis. Nulla consectetur justo ac justo aliquet, vel auctor augue condimentum.
             </div>
           </div>
           <div
-            class="c8"
+            class="sc-eDvSVe cJPiuO"
           >
             <h3
-              class="c3 c9"
+              class="sc-bcXHqe bxsYJQ"
             >
               Test 3
             </h3>
             <div
-              class="c5 c6"
+              class="sc-gswNZR SLXGE"
             >
               Morbi hendrerit nec augue ac placerat. Duis vestibulum augue turpis. Nulla consectetur justo ac justo aliquet, vel auctor augue condimentum.
             </div>
@@ -154,147 +75,68 @@ exports[`<GridText /> should render with background 1`] = `
 `;
 
 exports[`<GridText /> should render without background 1`] = `
-.c4 {
-  color: #0A1128;
-  font-size: 5.8rem;
-  text-transform: uppercase;
-}
-
-.c9 {
-  color: #0A1128;
-  font-size: 3rem;
-  text-transform: none;
-}
-
-.c6 {
-  font-size: 2.4rem;
-}
-
-.c2 .c5 {
-  margin-bottom: 6.4rem;
-}
-
-.c7 {
-  counter-reset: grid-counter;
-  display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(28rem,1fr));
-  gap: 3.2rem;
-  overflow: hidden;
-  width: 100%;
-}
-
-.c8 .c3 {
-  position: relative;
-  left: 5rem;
-}
-
-.c8 .c3::before {
-  counter-increment: grid-counter;
-  content: counter(grid-counter);
-  position: absolute;
-  font-size: 7rem;
-  top: -3rem;
-  left: -5rem;
-  -webkit-transform: rotate(5deg);
-  -ms-transform: rotate(5deg);
-  transform: rotate(5deg);
-}
-
-.c1 {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 3.2rem;
-  width: 100%;
-}
-
-.c0 {
-  background: #ffffff;
-  color: #0A1128;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-@media (max-width:76.8rem) and (min-width:38.5rem) {
-  .c4 {
-    font-size: 4.6rem;
-  }
-}
-
-@media (max-width:38.4rem) {
-  .c7 {
-    grid-template-columns: 1fr;
-  }
-}
-
 <div>
   <section
-    class="c0"
+    class="sc-gKPRtg cagUuq"
     id=""
   >
     <section
-      class="c1"
+      class="sc-jSUZER ibPrsa"
     >
       <section
-        class="c2"
+        class="sc-dkrFOg ifwtWa"
       >
         <h2
-          class="c3 c4"
+          class="sc-bcXHqe gGkVlk"
         >
           My Grid
         </h2>
         <div
-          class="c5 c6"
+          class="sc-gswNZR SLXGE"
         >
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum asperiores saepe impedit illo recusandae! Et assumenda vitae quos, deserunt odit at pariatur totam ad culpa voluptatem ex placeat quod porro.
         </div>
         <div
-          class="c7"
+          class="sc-hLBbgP gtqogd"
         >
           <div
-            class="c8"
+            class="sc-eDvSVe cJPiuO"
           >
             <h3
-              class="c3 c9"
+              class="sc-bcXHqe bxsYJQ"
             >
               Test 1
             </h3>
             <div
-              class="c5 c6"
+              class="sc-gswNZR SLXGE"
             >
               Morbi hendrerit nec augue ac placerat. Duis vestibulum augue turpis. Nulla consectetur justo ac justo aliquet, vel auctor augue condimentum.
             </div>
           </div>
           <div
-            class="c8"
+            class="sc-eDvSVe cJPiuO"
           >
             <h3
-              class="c3 c9"
+              class="sc-bcXHqe bxsYJQ"
             >
               Test 2
             </h3>
             <div
-              class="c5 c6"
+              class="sc-gswNZR SLXGE"
             >
               Morbi hendrerit nec augue ac placerat. Duis vestibulum augue turpis. Nulla consectetur justo ac justo aliquet, vel auctor augue condimentum.
             </div>
           </div>
           <div
-            class="c8"
+            class="sc-eDvSVe cJPiuO"
           >
             <h3
-              class="c3 c9"
+              class="sc-bcXHqe bxsYJQ"
             >
               Test 3
             </h3>
             <div
-              class="c5 c6"
+              class="sc-gswNZR SLXGE"
             >
               Morbi hendrerit nec augue ac placerat. Duis vestibulum augue turpis. Nulla consectetur justo ac justo aliquet, vel auctor augue condimentum.
             </div>

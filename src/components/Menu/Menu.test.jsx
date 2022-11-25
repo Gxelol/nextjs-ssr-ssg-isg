@@ -1,6 +1,7 @@
 import { fireEvent, screen } from '@testing-library/react';
 import { renderTheme } from '../../styles/renderTheme';
 import { Menu } from '.';
+import 'jest-styled-components';
 
 import linksMock from '../NavLink/mock';
 import { theme } from '../../styles/theme';

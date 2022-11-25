@@ -11,12 +11,8 @@ describe('<Text />', () => {
   it('should match snapshot', () => {
     const { container } = renderTheme(<Text>Children</Text>);
     expect(container.firstChild).toMatchInlineSnapshot(`
-      .c0 {
-        font-size: 2.4rem;
-      }
-
       <div
-        class="c0"
+        class="sc-bcXHqe jrQupI"
       >
         Children
       </div>
