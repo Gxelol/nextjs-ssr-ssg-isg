@@ -1,18 +1,18 @@
 import { ThemeProvider } from 'styled-components';
-import { theme } from '../styles/theme';
-import { AppProps } from 'next/app';
-
 import { GlobalStyles } from '../styles/global-styles';
+import { theme } from '../styles/theme';
+import { AppInitialProps } from 'next/app';
+import '../../public/fonts/styles.css';
 
-function MyApp({ Component, pageProps }) {
+export default function App({ Component, pageProps }) {
   return (
-    <ThemeProvider theme={theme}>
-      <Component {...pageProps} />
-      <GlobalStyles />
-    </ThemeProvider>
+    <>
+      <ThemeProvider theme={theme}>
+        <GlobalStyles />
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </>
   );
 }
 
-export default MyApp;
-
-MyApp.propTypes = AppProps;
+App.propTypes = AppInitialProps;
