@@ -6,7 +6,7 @@ export const loadPages = async (slug = '') => {
   const url = `${config.url}/pages/${cleanSlug}`;
 
   // const raw = await fetch(url); // Correct
-  const raw = await fetch(config.url); // With this because it's without servers
+  const raw = await fetch(config.url); // With this because it's without server
   const json = await raw.json();
   const { attributes } = json.data[0];
   const pageData = mapData([attributes]);
